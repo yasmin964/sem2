@@ -1,6 +1,8 @@
 ﻿//напишите программу,которая принимает на вход число и выводит кратно ли оно на 7 и 23 одновременно
 Console.Write("введите число: ");
 int num=int.Parse(Console.Readline()!);
+Console.ReadLine();
+
 if (num%7==0 && num%23==0)
 Console.WriteLine($"{num}-> да");
 else
